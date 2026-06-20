@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Models (large files)
+models/
+*.onnx
+*.pth
+
+# FAISS
+*.index
+*.faiss
+
+# Reference images (privacy)
+reference_images/
+
+# Logs & CSV
+attendance_*.csv
+logs/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
